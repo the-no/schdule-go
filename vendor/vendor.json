@@ -1,0 +1,72 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "Jwz6dD3onhTCuKTdRGdBfE3pvrQ=",
+			"path": "github.com/51idc/go-sh",
+			"revision": "b9716b682b19a6f0133c6e0b4fcacb906523a643",
+			"revisionTime": "2017-03-16T11:32:28Z"
+		},
+		{
+			"checksumSHA1": "hqDDDpue/5363luidNMBS8z8eJU=",
+			"path": "github.com/BurntSushi/toml",
+			"revision": "99064174e013895bbd9b025c31100bd1d9b590ca",
+			"revisionTime": "2016-07-17T15:07:09Z"
+		},
+		{
+			"checksumSHA1": "2avCvSn0XonfApKKuTMyiQmk7s0=",
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "3ec0642a7fb6488f65b06f9040adc67e3990296a",
+			"revisionTime": "2016-08-29T20:23:21Z"
+		},
+		{
+			"checksumSHA1": "fcfxNsCuheCrubAAl6zWgimCnLY=",
+			"path": "github.com/codegangsta/inject",
+			"revision": "33e0aa1cb7c019ccc3fbe049a8262a6403d30504",
+			"revisionTime": "2015-01-14T23:56:00Z"
+		},
+		{
+			"checksumSHA1": "s8LkYBuPyrsEKfafm/01pzM/hYI=",
+			"path": "github.com/go-martini/martini",
+			"revision": "0c6ad5903d2bf9337762caa9c357247279c230c3",
+			"revisionTime": "2016-04-30T15:43:47Z"
+		},
+		{
+			"checksumSHA1": "BIY45G2IVrTttD4Rlk9tHwiIOCM=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "7ebe0a500653eeb1859664bed5e48dec1e164e73",
+			"revisionTime": "2016-04-11T07:50:31Z"
+		},
+		{
+			"checksumSHA1": "Xc/FHteEFS2qRfYnDuEl3AkyJF4=",
+			"path": "github.com/martini-contrib/binding",
+			"revision": "8aaceec3b52c275477f32c95ea5c6e8ccaba04c5",
+			"revisionTime": "2015-04-29T23:30:13Z"
+		},
+		{
+			"checksumSHA1": "WMoHBLFJLLvhzbnatHIY+SgrrFI=",
+			"path": "github.com/martini-contrib/render",
+			"revision": "ec18f8345a1181146728238980606fb1d6f40e8c",
+			"revisionTime": "2015-07-07T14:21:08Z"
+		},
+		{
+			"checksumSHA1": "ySX441qui3+mv5q3ULS7X1DUEBA=",
+			"path": "github.com/martini-contrib/web",
+			"revision": "4cd66a0bae9de7d9420522af6e02f62bb1d7bdf1",
+			"revisionTime": "2014-05-08T17:27:24Z"
+		},
+		{
+			"checksumSHA1": "uG/irJIgifYdc+HC1kF6Gwgn7kU=",
+			"path": "github.com/oxtoacart/bpool",
+			"revision": "4e1c5567d7c2dd59fa4c7c83d34c2f3528b025d6",
+			"revisionTime": "2015-07-12T13:31:11Z"
+		},
+		{
+			"checksumSHA1": "0SFJbplJ2TQJhsdd5GeLtXaVrTo=",
+			"path": "golang.org/x/sys/unix",
+			"revision": ""
+		}
+	],
+	"rootPath": "gitlab.51idc.com/hds/scheduling"
+}

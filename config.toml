@@ -1,0 +1,28 @@
+# This is a TOML document. 
+
+maxprocs = 8
+port = "8527"
+managerport = "4000"
+
+#0.Panic 1.Fatal 2.Error 3.Warn 4.Info 5.Debug
+loglevel = 5
+
+schedule_pid_file="schedule_pid_file"
+worker_pid_file="worker_pid_file"
+cpuprof="cpuprofile"
+memprof="memprofile"
+
+[dbinfo]
+
+  [dbinfo.hivedb]
+  #Dbtype = "sqlite3"
+  #Conn = "hive_tp.db"
+  Dbtype = "mysql"
+  Conn = "root:root@tcp(127.0.0.1:3306)/schedule_dev?charset=utf8&parseTime=true&loc=Local"
+
+  [dbinfo.logdb]
+  #Dbtype = "sqlite3"
+  #Conn = "log_tp.db"
+  Dbtype = "mysql"
+  Conn = "root:root@tcp(127.0.0.1:3306)/schedule_dev?charset=utf8&parseTime=true&loc=Local"
+
